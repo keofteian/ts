@@ -7,25 +7,19 @@
 
 ## Variable Declarations in TypeScript
 - syntax
-> let variableName: variableType = value;
-// or  
+```
+let variableName: variableType = value;
+```
+// or
+```
 let variableName: variableType;
+```
 
 ## Classification of types in TypeScript
 1. Basic or Primitive Types
-- boolean
-- number
-- string
-- array
-- tuple (tuple.ts)
-- enum (enum.ts)
-- null
-- undefined
-- any
-- void: exists purely to indicate the absence of a value, such as in a function with no return value.
+boolean, number, string, array, tuple (tuple.ts), enum (enum.ts), null, undefined, any, void: exists purely to indicate the absence of a value, such as in a function with no return value.
 2. Complex or Non-Primitive Types
-- class
-- interface
+class, interface
 
 ## Type assertions
 - Type assertions have two forms. One is the "angle-bracket" syntax < >:
@@ -41,8 +35,4 @@ let strLength: number = (someValue as string).length;
 The two samples are equivalent. Using one over the other is mostly a choice of preference; however, when using TypeScript with JSX, only as-style assertions are allowed.
 
 ## complex types in TypeScript:
-- Interfaces (/interface)
-- Class Types (/class)
-- Function Types (/functions)
-- Indexable Types
-- Classes
+Interfaces (/interface), Class Types (/class), Function Types (/functions), Indexable Types (/indexable)
