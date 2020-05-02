@@ -43,6 +43,6 @@ The two samples are equivalent. Using one over the other is mostly a choice of p
 ## complex types in TypeScript:
 - Interfaces (/interface)
 - Class Types (/class)
-- Function Types
+- Function Types (/functions)
 - Indexable Types
 - Classes
