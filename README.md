@@ -17,8 +17,8 @@
   - number
   - string
   - array
-  - tuple
-  - enum
+  - tuple (tuple.ts)
+  - enum (enum.ts)
   - null
   - undefined
   - any
@@ -26,4 +26,3 @@
   2. Complex or Non-Primitive Types
   - class
   - interface
-
